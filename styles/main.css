@@ -4,7 +4,6 @@
     float: left;
     position: relative;
     width: 100%;
-    
 }
 
 #junglebook
@@ -13,20 +12,21 @@
     position: relative;
     margin: 0 auto;
     padding-top: 30px;
-    margin-left: 375px;
-
-
+    background-color: rgb(176, 252, 227);
+    margin-left: 130px;
 }
 
 .bookplayer
 {
-    background-color: azure;
+    background-color: rgb(115, 248, 204);
     float: left;
     padding-left: 200px;
     padding-right: 200px;
     margin: 0 auto;
     position: relative;
-    width: 600px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #bookmedia
@@ -38,9 +38,10 @@
 {
     float: left;
     margin: 0 auto;
-    margin-left: 325px;
+    background-color: rgb(176, 252, 227);
     position: relative;
     padding-top: 30px;
+    margin-left: 130px;
 }
 
 #abba
@@ -48,8 +49,8 @@
     float: left;
     position: relative;
     margin: 0 auto;
-    margin-left: 415px;
-    margin-top: 50px;
+    margin-left: 130px;
+    background-color: rgb(176, 252, 227);
 }
 
 h1{
@@ -65,4 +66,5 @@ h2{
     color: white;
     background-color: rgb(171, 216, 253);
     padding: 30px;
+
 }
