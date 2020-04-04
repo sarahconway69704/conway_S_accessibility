@@ -3,38 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Dependencies -->
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="thirdparty/js.cookie.js"></script>
 
-<!-- CSS -->
+
     <link rel="stylesheet" href="build/ableplayer.min.css" type="text/css"/>
 
-<!-- JavaScript -->
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+
+
     <script src="build/ableplayer.min.js"></script>
     <title>Accessibility</title>
 </head>
 <body>
-    <video data-able-player width="320" height="240">
+
+  <h1>Accessible Media</h1>
+
+  <section id="media">
+
+
+    <div id="junglebook">
+    <h2>The Jungle Book - 1967 </h2>
+    <div class="bookplayer">
+    <video id="bookmedia" data-able-player width="500" height="540">
         <source src="video/junglebook.mp4" type="video/mp4">
         <source src="video/junglebook.ogg" type="video/ogg">
         <track default kind="subtitles" srclang="en" src="junglebook.vtt" label="English"/>
       Your browser does not support the video tag.
       </video>
+    </div>
+    </div>
 
-      <video data-able-player width="480" height="360">
+
+
+    <div id="sabrina">
+      <h2>Sabrina the Teenage Witch - 1996</h2>
+      <div  class="bookplayer">
+      <video data-able-player width="680" height="360">
         <source src="tv/sabrina.mp4" type="video/mp4">
         <source src="tv/sabrina.ogg" type="video/ogg">
      <track default kind="subtitles" srclang="en" src="sabrina.vtt" label="english"/>
       Your browser does not support the video tag.
       </video>
+      </div>
+    </div>
 
+
+
+  <div id="abba">
+    <h2>Dancing Queen - ABBA</h2>
+    <div class="bookplayer">
       <audio id="audio1" data-able-player>
         <source src="audio/abba.mp3" type="audio/mp3">
         <source src="audio/abba.ogg" type="audio/ogg">
         <track default kind="subtitles" srclang="en" src="abba.vtt" label="English"/>
       Your browser does not support the audio element.
       </audio>
+    </div>
+    </div>
+
+
+
+    </section>
 
 </body>
 </html>
